@@ -97,7 +97,7 @@ def loadModel():
 
 
 
-def SignLanguage():
+def DigitRecognition():
     cap = cv2.VideoCapture(0)
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, 480)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
@@ -143,4 +143,4 @@ def SignLanguage():
 
 
 loadModel()
-SignLanguage()
+DigitRecognition()
